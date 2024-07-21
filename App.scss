@@ -1,0 +1,26 @@
+@import "~bootstrap/scss/bootstrap";
+
+/* Дополнительные стили */
+.container {
+  margin-top: 50px;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  position: relative;
+}
+
+.list-group {
+  position: absolute;
+  width: 100%;
+  z-index: 1000;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+}
+
+.list-group-item {
+  cursor: pointer;
+}
